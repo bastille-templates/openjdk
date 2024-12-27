@@ -2,6 +2,13 @@
 ```sh
 bastille bootstrap https://github.com/bastille-templates/openjdk
 bastille template openjdk bastille-templates/openjdk
+bastille pkg openjdk update
+```
+
+Edii file /usr/local/bastille/jails/container/fstab
+```sh
+fdesc	/dev/fd		fdescfs		rw	0	0
+proc	/proc		procfs		rw	0	0
 ```
 
 ## License

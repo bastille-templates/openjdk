@@ -3,10 +3,5 @@ ARG version=8
 # install required packages
 PKG openjdk${version}
 
-# copy files
-# CP usr /
-
-# enable and start elasticsearch
-#SYSRC elasticsearch_java_home=/usr/local/openjdk${version}
-
-#SERVICE elasticsearch start
+# enable
+SYSRC elasticsearch_java_home=/usr/local/openjdk${version}
