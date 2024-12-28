@@ -1,4 +1,4 @@
-ARG version=11
+ARG version=17
 
 # install required packages
 PKG openjdk${version}
