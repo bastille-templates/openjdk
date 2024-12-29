@@ -2,6 +2,3 @@ ARG version=17
 
 # install required packages
 PKG openjdk${version}
-
-# enable
-SYSRC elasticsearch_java_home=/usr/local/openjdk${version}
